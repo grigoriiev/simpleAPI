@@ -1,7 +1,5 @@
 <?php
 use App\Factory;
-$dotenv = Dotenv\Dotenv::create(__DIR__);
-$dotenv->load();
 
 /**
  * Class App
@@ -53,6 +51,6 @@ class App
             default:
                 return;
         }
-
+echo 'hello';
     }
 }
